@@ -1,0 +1,14 @@
+[workspace]
+channels = ["conda-forge"]
+name = "python-sandbox"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pytorch = ">=2.7.0,<3"
+jupyterlab = ">=4.4.3,<5"
+seaborn = ">=0.13.2,<0.14"
+fastapi = ">=0.115.12,<0.116"
+polars = ">=1.30.0,<2"
